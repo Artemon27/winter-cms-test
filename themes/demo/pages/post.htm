@@ -1,0 +1,10 @@
+title = "post"
+url = "/blog/post/:slug"
+layout = "blog"
+is_hidden = 0
+
+[blogPost]
+slug = "{{ :slug }}"
+categoryPage = "blog"
+==
+{% component 'blogPost' %}
